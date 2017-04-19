@@ -24,14 +24,14 @@ h1
 
 h2
 {
+	position: relative;
 	padding-top: 15%;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
 h3
-{
-	padding-top: 5em;
+{ 
 	text-align: left;
 	color: white;
 }
@@ -50,7 +50,7 @@ nav ul
    list-style-type: none;
    margin-left: 25%;
    padding: 0;
-   height 35px;  
+   height: 35px;  
 }
 
 nav li
@@ -122,4 +122,9 @@ ul#n_conv a
 ul#n_conv li a:hover
 {
 	text-decoration: underline;
+}
+
+a
+{
+	color: white;
 }
