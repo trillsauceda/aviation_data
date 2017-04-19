@@ -1,0 +1,125 @@
+/*** Begin page layout styles ***/
+body
+{
+   max-width: 1200px;
+   width: 80%;
+   padding:0 0 30px 0;
+   margin:0 auto;
+   background-color:#000;
+   line-height:150%;
+   position: relative;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*** Begin logo styles ***/
+img {float: left;}
+h1
+{
+   text-align:center;
+   font-family: 'Luckiest Guy', cursive;
+   font-size: 750%;
+   color:#30bdff;
+}
+
+h2
+{
+	padding-top: 15%;
+	text-align: left;
+	color: white;
+}
+
+h3
+{
+	padding-top: 5em;
+	text-align: left;
+	color: white;
+}
+/*** End logo styles ***/
+
+
+/*** Begin navigation styles ***/
+nav
+{
+	margin-left: 15em;
+}
+
+nav ul
+{
+   width: 1000px;
+   list-style-type: none;
+   margin-left: 25%;
+   padding: 0;
+   height 35px;  
+}
+
+nav li
+{
+   float: left;
+}
+
+nav a 
+{
+   border-style: solid;
+   border-color: #fff
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+nav ul#menu
+{
+   width:100%;
+   margin:0;
+   padding:0;
+}
+
+nav ul#menu
+{
+   color:#00a4e0;
+   text-decoration:none;
+}
+
+nav ul#menu li a:hover
+{
+   text-decoration:underline;
+}
+
+   
+
+/*** End navigation styles ***/
+
+p
+{
+   width: calc(100% - 20px);
+   float: left;
+   color: white;
+   text-align: left;
+   
+}
+
+
+ul#skeptics a
+{
+	float: left;
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+}
+ul#skeptics li a:hover
+{
+	text-decoration: underline;
+}
+
+ul#n_conv a
+{
+	float: left;
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+}
+ul#n_conv li a:hover
+{
+	text-decoration: underline;
+}
