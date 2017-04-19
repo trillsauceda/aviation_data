@@ -41,7 +41,7 @@ h3
 /*** Begin navigation styles ***/
 nav
 {
-	margin-left: 15em;
+	margin-left: 17em;
 }
 
 nav ul
@@ -60,7 +60,7 @@ nav li
 
 nav a 
 {
-   border-style: solid;
+   border-style: none;
    border-color: #fff
    display: inline-block;
    color: white;
