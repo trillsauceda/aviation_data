@@ -3,90 +3,82 @@ body
 {
    max-width: 1200px;
    width: 80%;
-   padding:0 0 30px 0;
+   padding:0 0 35px 0;
    margin:0 auto;
-   background-color:#000;
+   background:url('../images/stack_view_background_noise@2x.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
    line-height:125%;
    position: relative;
-   font-family: Helvetica, Arial, sans-serif;
+   font-family: 'Abel', sans-serif;
+   font-size: 24px;
 }
 
 
 /*** Begin logo styles ***/
-img {float: left;}
+/*img {float: left;}*/
 h1
 {
    text-align:center;
    font-family: 'Luckiest Guy', cursive;
-   font-size: 750%;
+   font-size: 500%;
    color:#30bdff;
 }
 
 h2
 {
 	position: relative;
-	padding-top: 2%;
+	padding-top: 2em;
 	text-align: center;
 	color: white;
 }
 
 h3
 { 
-	text-align: left;
+  margin-top: 20px;
+	margin-left: 1.5em;
+  text-align: left;
 	color: white;
+}
+
+h4
+{
+   position: relative;
+   float: right;
+   text-align: left;
+   color: white;
+   font-size: 28px;
 }
 /*** End logo styles ***/
 
 
 /*** Begin navigation styles ***/
-nav
-{
-	margin-left: 17em;
+
+nav ul {
+    list-style-type: none;
+    margin-left: 10em;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
 }
 
-nav ul
-{
-   width: 1000px;
-   list-style-type: none;
-   margin-left: 25%;
-   padding: 0;
-   height: 35px;  
+nav li {
+    float: left;
 }
 
-nav li
-{
-   float: left;
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-nav a 
-{
-   border-style: none;
-   border-color: #fff
-   display: inline-block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-}
-nav ul#menu
-{
-   width:100%;
-   margin:0;
-   padding:0;
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
 }
 
-nav ul#menu
-{
-   color:#00a4e0;
-   text-decoration:none;
-}
-
-nav ul#menu li a:hover
-{
-   text-decoration:underline;
-}
-
-   
 
 /*** End navigation styles ***/
 
@@ -95,15 +87,41 @@ p
    width: calc(100% - 20px);
    float: left;
    color: white;
+   text-align: center;
+   
+}
+
+p#skeptics
+{
+   width: calc(100% - 20px);
+   margin-left: 1.5em;
+   float: left;
+   color: white;
    text-align: left;
    
 }
 
+p#n_conv
+{
+   width: calc(100% - 20px);
+   float: right;
+   color: white;
+   text-align: left;
+   
+}
 
+ul#skeptics
+{
+   position: relative;
+   float: left;
+   list-style-type: none;
+   color: white;
+   text-decoration: none;
+}
 ul#skeptics a
 {
+  position: relative;
 	float: left;
-	list-style-type: none;
 	color: white;
 	text-decoration: none;
 }
@@ -112,10 +130,17 @@ ul#skeptics li a:hover
 	text-decoration: underline;
 }
 
+ul#n_conv
+{
+   position: relative;
+   float: left;
+   list-style-type: none;
+   color: white;
+   text-decoration: none;
+}
 ul#n_conv a
 {
 	float: left;
-	list-style-type: none;
 	color: white;
 	text-decoration: none;
 }
@@ -127,13 +152,36 @@ ul#n_conv li a:hover
 a
 {
 	color: white;
+   text-decoration: none;
+}
+
+a:hover
+{
+   text-decoration: underline;
 }
 
 footer
 {
-	display: inline-block;
+	position: relative;
 	width: 1000px;
 	float: left;
-	left: 17em;
+	left: 1.5em;
 	text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    color: white;
+}
+
+img
+{
+  position: relative;
+  float: right;
+  z-index: -1;
+}
+
+p#PvC_desc
+{
+  padding:15px 20px 20px 10px;
 }
