@@ -76,9 +76,12 @@ nav li a {
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: #111;
+    background-color: #3479b5;
 }
 
+.active {
+    background-color: #3479b5;
+}
 
 /*** End navigation styles ***/
 
