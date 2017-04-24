@@ -95,22 +95,33 @@ p
    
 }
 
-p#skeptics
+p#facebook
 {
-   width: calc(100% - 20px);
-   margin-left: 1.5em;
+  position: relative;
+  float: left;
+  text-align: center;
+  left: 1.35em;
+}
+
+p#for_skeptics
+{
+   position: relative;
    float: left;
+   top: 2.5em;
+   margin-left: 1.5em;
    color: white;
    text-align: left;
    
 }
 
-p#n_conv
+p#n_conv_p
 {
-   width: calc(100% - 20px);
-   float: right;
-   color: white;
-   text-align: left;
+  position: relative;
+  float: left;
+  top: 2.5em;
+  margin-left: 1.5em;
+  color: white;
+  text-align: left;
    
 }
 
@@ -125,6 +136,7 @@ ul#skeptics
 ul#skeptics a
 {
   position: relative;
+  top: 1em;
 	float: left;
 	color: white;
 	text-decoration: none;
@@ -138,6 +150,7 @@ ul#n_conv
 {
    position: relative;
    float: left;
+   top: 1.5em;
    list-style-type: none;
    color: white;
    text-decoration: none;
@@ -156,7 +169,7 @@ ul#n_conv li a:hover
 a
 {
 	color: white;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover
@@ -166,9 +179,10 @@ a:hover
 
 footer
 {
-	position: relative;
+  position: relative;
 	width: 1000px;
 	float: left;
+  top: 2em;
 	left: 2em;
 	text-align: center;
 }
@@ -178,14 +192,41 @@ table {
     color: white;
 }
 
-img
+img#plane
 {
   position: relative;
   float: right;
+  /*top: 1em;*/
+  right: 5em;
   z-index: -1;
 }
 
 p#PvC_desc
 {
   padding:15px 20px 20px 10px;
+}
+
+img#crumple_1
+{
+  position: relative;
+  float: left;
+  left: 2em;
+  z-index: -1;
+}
+
+img#crumple_2
+{
+  position: relative;
+  float: left;
+  top: 1em;
+  left: 15em;
+  z-index: -1;
+}
+img#crumple_3
+{
+  position: relative;
+  float: left;
+  top: 1em;
+  left: 13em;
+  z-index: -1;
 }
