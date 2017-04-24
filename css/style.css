@@ -23,7 +23,7 @@ h1
    text-align:center;
    font-family: 'Luckiest Guy', cursive;
    font-size: 500%;
-   color:#30bdff;
+   color:#E53935;
 }
 
 h2
@@ -77,11 +77,11 @@ nav li a {
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-    background-color: #3479b5;
+    background-color: #EF5350;
 }
 
 .active {
-    background-color: #3479b5;
+    background-color: #EF5350;
 }
 
 /*** End navigation styles ***/
@@ -197,7 +197,7 @@ img#plane
   position: relative;
   float: right;
   /*top: 1em;*/
-  right: 5em;
+  right: 4em;
   z-index: -1;
 }
 
@@ -229,4 +229,12 @@ img#crumple_3
   top: 1em;
   left: 13em;
   z-index: -1;
+}
+
+img#lightblb
+{
+  position: relative;
+  float: right;
+  top: 11em;
+  left: 7em;  
 }
