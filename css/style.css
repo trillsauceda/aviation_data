@@ -1,7 +1,11 @@
+/*---------------------------------------------------------- */
+/*| Author: Martin Chiquete-Careaga                         |*/
+/*---------------------------------------------------------- */
+
 /*** Begin page layout styles ***/
 body
 {
-   max-width: 1200px;
+   max-width: 100%;
    width: 80%;
    padding:0 0 35px 0;
    margin:0 auto;
@@ -20,18 +24,18 @@ body
 /*img {float: left;}*/
 h1
 {
-   text-align:center;
+   text-align:left;
    font-family: 'Luckiest Guy', cursive;
-   font-size: 500%;
+   size: 200%;
    color:#E53935;
 }
 
 h2
 {
 	position: relative;
-	padding-top: 2em;
 	text-align: center;
 	color: white;
+  /*font-size: 24px;*/
 }
 
 h3
@@ -57,8 +61,9 @@ h4
 
 nav ul {
     list-style-type: none;
-    margin-left: 10em;
-    padding: 0;
+    margin: 0;
+    /*padding-left: 10em;*/
+    width: calc(100% - 20px);
     overflow: hidden;
     /*background-color: #333;*/
 }
@@ -100,15 +105,16 @@ p#facebook
   position: relative;
   float: left;
   text-align: center;
-  left: 1.35em;
+  /*left: 1.35em;*/
 }
 
 p#for_skeptics
 {
    position: relative;
    float: left;
-   top: 2.5em;
-   margin-left: 1.5em;
+   width: calc(100% - 325px);
+   /*top: 2.5em;*/
+   /*margin-left: 1.5em;*/
    color: white;
    text-align: left;
    
@@ -118,8 +124,9 @@ p#n_conv_p
 {
   position: relative;
   float: left;
-  top: 2.5em;
-  margin-left: 1.5em;
+  width: calc(100% - 325px);
+  /*top: 2.5em;*/
+  /*margin-left: 1.5em;*/
   color: white;
   text-align: left;
    
@@ -128,6 +135,7 @@ p#n_conv_p
 ul#skeptics
 {
    position: relative;
+   width: 45%;
    float: left;
    list-style-type: none;
    color: white;
@@ -136,7 +144,7 @@ ul#skeptics
 ul#skeptics a
 {
   position: relative;
-  top: 1em;
+  /*top: 1em;*/
 	float: left;
 	color: white;
 	text-decoration: none;
@@ -150,11 +158,12 @@ ul#n_conv
 {
    position: relative;
    float: left;
-   top: 1.5em;
+   width: 35%;
    list-style-type: none;
    color: white;
    text-decoration: none;
 }
+
 ul#n_conv a
 {
 	float: left;
@@ -180,10 +189,8 @@ a:hover
 footer
 {
   position: relative;
-	width: 1000px;
+	width: calc(100% - 20px);
 	float: left;
-  top: 2em;
-	left: 2em;
 	text-align: center;
 }
 
@@ -192,12 +199,20 @@ table {
     color: white;
 }
 
+img#title
+{
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  /*left: 2em;*/
+}
+
 img#plane
 {
   position: relative;
   float: right;
   /*top: 1em;*/
-  right: 4em;
+  /*left: 8em;*/
   z-index: -1;
 }
 
@@ -206,35 +221,43 @@ p#PvC_desc
   padding:15px 20px 20px 10px;
 }
 
+p#desc_2
+{
+  padding-top: 1em;
+}
+
 img#crumple_1
 {
   position: relative;
   float: left;
-  left: 2em;
+  /*left: 5em;*/
   z-index: -1;
+  max-width: 100%;
 }
 
 img#crumple_2
 {
   position: relative;
   float: left;
-  top: 1em;
-  left: 15em;
+  /*top: 1em;*/
+  /*left: 15em;*/
   z-index: -1;
+  max-width: 100%;
 }
 img#crumple_3
 {
   position: relative;
   float: left;
-  top: 1em;
-  left: 13em;
-  z-index: -1;
+  /*top: 1em;*/
+  /*left: 15em;*/
+  /*z-index: -1;*/
+  max-width: 100%;
 }
 
 img#lightblb
 {
   position: relative;
   float: right;
-  top: 11em;
-  left: 7em;  
+  /*top: 11em;*/
+  /*left: 7em;  */
 }

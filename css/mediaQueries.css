@@ -1,0 +1,584 @@
+/*---------------------------------------------------------- */
+/*| Author: Martin Chiquete-Careaga                         |*/
+/*---------------------------------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 480px)
+{
+	body
+	{
+		max-width: 480px;
+		font-size: 1em;
+	}
+	h1
+	{
+		max-width: 480px;
+	}
+	
+	h2
+	{
+		font-size: 5em;
+	}
+	nav
+	{
+		padding-left: 0;
+	}
+
+	ul#skeptics
+	{
+	   position: relative;
+	   width: 50%;
+	   float: left;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	ul#skeptics a
+	{
+	  	position: relative;
+		float: left;
+		color: white;
+		text-decoration: none;
+	}
+	ul#skeptics li a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul#n_conv
+	{
+	   position: relative;
+	   float: left;
+	   width: 50%;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	img#crumple_1
+	{
+	  position: relative;
+	  float: left;
+	  left: 1em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+
+	img#crumple_2
+	{
+	  position: relative;
+	  float: left;
+	  padding-top: 2em;
+	  padding-left: 1em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+	img#crumple_3
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  padding-left: 10em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+	footer
+	{
+		top:2em;
+	}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px)
+{
+	body
+	{
+		max-width: 100%;
+	}
+
+	h1
+	{
+		max-width: 100%;
+	}
+
+	ul#skeptics
+	{
+	   position: relative;
+	   width: 50%;
+	   float: left;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	ul#skeptics a
+	{
+	  	position: relative;
+		float: left;
+		color: white;
+		text-decoration: none;
+	}
+	ul#skeptics li a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul#n_conv
+	{
+	   position: relative;
+	   float: left;
+	   width: 50%;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	img#crumple_1
+	{
+	  position: relative;
+	  float: left;
+	  left: 1em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+
+	img#crumple_2
+	{
+	  position: relative;
+	  float: left;
+	  /*padding-top: 1em;*/
+	  /*padding-left: 1em;*/
+	  z-index: -1;
+	  max-width: 100%;
+	}
+	img#crumple_3
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  /*padding-left: 10em;*/
+	  z-index: -1;
+	  max-width: 100%;
+	}
+	footer
+	{
+		top:2em;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px)
+{
+	body
+	{
+		max-width: 100%;
+	}
+
+	h1
+	{
+		max-width: 100%;
+		padding-left: 5em;
+	}
+
+	nav
+	{
+		padding-left: 0.5em;
+	}
+
+	ul#skeptics
+	{
+	   position: relative;
+	   width: 50%;
+	   float: left;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+
+	ul#skeptics a
+	{
+	  	position: relative;
+		float: left;
+		color: white;
+		text-decoration: none;
+	}
+
+	ul#skeptics li a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul#n_conv
+	{
+	   position: relative;
+	   float: left;
+	   width: 50%;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+
+	img#crumple_1
+	{
+	   position: relative;
+	   float: left;
+	   left: 1em;
+	   z-index: -1;
+	   max-width: 100%;
+	}
+
+	img#crumple_2
+	{
+	   position: relative;
+	   float: left;
+	   /*padding-top: 1em;*/
+	   left: 1em;
+	   z-index: -1;
+	   max-width: 100%;
+	}
+
+	img#crumple_3
+	{
+	   position: relative;
+	   float: left;
+	   top: 1em;
+	   /*padding-left: 10em;*/
+	   z-index: -1;
+	   max-width: 100%;
+	}
+
+	footer
+	{
+		top:2em;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+	body
+	{
+		max-width: 100%;
+	}
+
+	h1
+	{
+		max-width: 100%;
+      left: 1em;
+	}
+
+	nav
+	{
+		padding-left: 1em;
+	}
+
+	ul#skeptics
+	{
+	   position: relative;
+	   width: 50%;
+	   float: left;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	ul#skeptics a
+	{
+	  position: relative;
+	  /*top: 1em;*/
+		float: left;
+		color: white;
+		text-decoration: none;
+	}
+	ul#skeptics li a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul#n_conv
+	{
+	   position: relative;
+	   float: left;
+	   width: 50%;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+
+	img#crumple_1
+	{
+	   position: relative;
+	   float: left;
+	   /*left: 5em;*/
+	   z-index: -1;
+	   max-width: 100%;
+	}
+
+	img#crumple_2
+	{
+	   position: relative;
+	   float: left;
+	   top: 1em;
+	   left: 8em;
+	   z-index: -1;
+	   max-width: 100%;
+	}
+	img#crumple_3
+	{
+	   position: relative;
+	   float: left;
+	   top: 1em;
+	   left: 6em;
+	   z-index: -1;
+	   max-width: 100%;
+	}
+
+   footer
+   {
+      top: 1em;
+   }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px)
+{
+	body
+	{
+		max-width: 100%;
+	}
+
+	h1
+	{
+		max-width: 100%;
+		padding-left: 1em;
+	}
+
+	nav
+	{
+		padding-left: 7.5em;
+	}
+
+	ul#skeptics
+	{
+	   position: relative;
+	   width: 35%;
+	   float: left;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	ul#skeptics a
+	{
+	   position: relative;
+	   /*top: 1em;*/
+	   float: left;
+	   color: white;
+	   text-decoration: none;
+	}
+	ul#skeptics li a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul#n_conv
+	{
+	   position: relative;
+	   float: left;
+	   width: 35%;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+
+	img#crumple_1
+	{
+	  position: relative;
+	  float: left;
+	  left: 2em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+
+	img#crumple_2
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  left: 15em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+	img#crumple_3
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  left: 12em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+
+	footer
+	{
+		padding-top: 1em;
+	}
+}
+
+@media screen and (min-width: 2560px)
+{
+	body
+	{
+		max-width: 85%;
+	}
+
+	h1
+	{
+		max-width: 100%;
+		padding-left: 1em;
+	}
+
+	nav
+	{
+		padding-left: 30em;
+	}
+
+	ul#skeptics
+	{
+	   position: relative;
+	   width: 25%;
+	   float: left;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+	ul#skeptics a
+	{
+	  position: relative;
+	  /*top: 1em;*/
+		float: left;
+		color: white;
+		text-decoration: none;
+	}
+	ul#skeptics li a:hover
+	{
+		text-decoration: underline;
+	}
+
+	ul#n_conv
+	{
+	   position: relative;
+	   float: left;
+	   width: 20%;
+	   list-style-type: none;
+	   color: white;
+	   text-decoration: none;
+	}
+
+	img#crumple_1
+	{
+	  position: relative;
+	  float: left;
+	  left: 8em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+
+	img#crumple_2
+	{
+	  position: relative;
+	  float: left;
+	  top: 5em;
+	  left: 17em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+	img#crumple_3
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  left: 33em;
+	  z-index: -1;
+	  max-width: 100%;
+	}
+
+   footer
+   {
+      padding-top: 1em;
+   }
+
+{
+   body
+   {
+      max-width: 100%;
+   }
+
+   h1
+   {
+      max-width: 100%;
+      padding-left: 1em;
+   }
+
+   nav
+   {
+      padding-left: 11.5em;
+   }
+
+   ul#skeptics
+   {
+      position: relative;
+      width: 35%;
+      float: left;
+      list-style-type: none;
+      color: white;
+      text-decoration: none;
+   }
+   ul#skeptics a
+   {
+     position: relative;
+     /*top: 1em;*/
+      float: left;
+      color: white;
+      text-decoration: none;
+   }
+   ul#skeptics li a:hover
+   {
+      text-decoration: underline;
+   }
+
+   ul#n_conv
+   {
+      position: relative;
+      float: left;
+      width: 35%;
+      list-style-type: none;
+      color: white;
+      text-decoration: none;
+   }
+
+   img#crumple_1
+   {
+     position: relative;
+     float: left;
+     left: 6.5em;
+     z-index: -1;
+     max-width: 100%;
+   }
+
+   img#crumple_2
+   {
+     position: relative;
+     float: left;
+     top: 1em;
+     left: 20em;
+     z-index: -1;
+     max-width: 100%;
+   }
+   img#crumple_3
+   {
+     position: relative;
+     float: left;
+     top: 1em;
+     left: 17.5em;
+     z-index: -1;
+     max-width: 100%;
+   }
+
+   footer
+   {
+      padding-top: 1em;
+   }
+}
+}
