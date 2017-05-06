@@ -226,6 +226,12 @@ p#desc_2
   padding-top: 1em;
 }
 
+p#iframe
+{
+  position: relative;
+  float: left;
+}
+
 img#crumple_1
 {
   position: relative;
@@ -260,4 +266,12 @@ img#lightblb
   float: right;
   /*top: 11em;*/
   /*left: 7em;  */
+}
+
+img#graph1
+{
+  position: relative;
+  float: left;
+  top: 1em;
+  max-width: 100%;
 }
