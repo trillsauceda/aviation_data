@@ -85,6 +85,14 @@
 	   top: 1em;
 	}
 
+	img#cargrph
+	{
+	  position: relative;
+	  float: left;
+	  left: 2em;
+	  max-width: 100%;
+	}
+
 	footer
 	{
 		top:2em;
@@ -415,6 +423,31 @@
 	  z-index: -1;
 	  max-width: 100%;
 	}
+	
+	img#cargrph
+	{
+		position: relative;
+		float: left;
+		left: 9em;
+	}
+
+	img#graph2
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  left: 7em;
+	  max-width: 100%;
+	}
+
+	img#graph3
+	{
+		position: relative;
+		float: left;
+		top: 1em;
+		max-width: 100%;
+		left: 5em;
+	}
 
 	footer
 	{
@@ -499,6 +532,31 @@
      z-index: -1;
      max-width: 100%;
    }
+
+   img#cargrph
+	{
+		position: relative;
+		float: left;
+		left: 12em;
+	}
+
+   img#graph2
+	{
+	  position: relative;
+	  float: left;
+	  top: 1em;
+	  max-width: 100%;
+	  left: 10em;
+	}
+
+	img#graph3
+	{
+		position: relative;
+		float: left;
+		top: 1em;
+		max-width: 100%;
+		left: 8em;
+	}
 
    footer
    {

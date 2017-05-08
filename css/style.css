@@ -275,3 +275,27 @@ img#graph1
   top: 1em;
   max-width: 100%;
 }
+
+img#cargrph
+{
+  position: relative;
+  float: left;
+  /*top: em;*/
+  max-width: 100%;
+}
+
+img#graph2
+{
+  position: relative;
+  float: left;
+  top: 1em;
+  max-width: 100%;
+}
+
+img#graph3
+{
+  position: relative;
+  float: left;
+  top: 1em;
+  max-width: 100%;
+}
